@@ -438,31 +438,4 @@ query('//ar:library/br:book', {'ar': 'https://goo.com/library', 'br' : 'https://
 
 ```
 
-Sample custom XML document for reference:
-
-```xml
-<lib:library
-   xmlns:lib="http://foo.com/ns/library"
-   xmlns:hr="http://foo.com/ns/person">
-  <lib:book id="b0836217462" available="true">
-   <lib:isbn>0836217462</lib:isbn>
-   <lib:title xml:lang="en">Being a Pet</lib:title>
-   <hr:author id="CMS">
-    <hr:name>Charles M Schulz</hr:name>
-    <hr:born>1922-11-26</hr:born>
-    <hr:dead>2000-02-12</hr:dead>
-   </hr:author>
-   <lib:character id="Snoopy">
-    <hr:name>Snoopy</hr:name>
-    <hr:born>1950-10-04</hr:born>
-    <lib:qualification>extroverted beagle</lib:qualification>
-   </lib:character>
-   <lib:character id="Bloop">
-    <hr:name>Lucy</hr:name>
-    <hr:born>1952-03-03</hr:born>
-    <lib:qualification>bossy, crabby and selfish</lib:qualification>
-   </lib:character>
-  </lib:book>
-</lib:library>
-```
 **[Tell us what you think](https://github.com/OfficeDev/office-js-docs/issues/new?title=OpenSpec-CXP)**
