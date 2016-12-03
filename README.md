@@ -14,12 +14,24 @@ This could be accessed using:
 `var host = Office.context.host;`
 
 It returns a string whose possible values could be one of the following: 
-* "desktop" (Windows desktop environment) 
-* "online" (Office online environment) 
-* "mac" (Office on Mac)
-* "ios" (Office on iPad)
-* "android" (Office on Androd)
+* "PC" (Windows desktop environment) 
+* "OFFICE_ONLINE" (Office online environment) 
+* "MAC" (Office on Mac)
+* "IOS" (Office on iPad)
+* "ANDROID" (Office on Androd)
 * `null`: If the site is not running within a Office host (such as Excel or Word), then `null` value is returned. 
+
+The following enumratons could also be used to check the value being retured: 
+
+```js
+switch (Office.context.platform) {
+                case Office.PlatformTypes.PC:
+                   // do something
+                case Office.PlatformTypes.OFFICE_ONLINE:
+                   // do something
+}
+
+```
 
 ### Platform
 
@@ -28,11 +40,24 @@ This could be accessed using:
 `var platform = Office.context.platform;`
 
 It returns a string whose possible values could be one of the following: 
-* "excel" 
-* "onenote"
-* "outlook"
-* "powerpoint"
-* "word"
+* "EXCEL" 
+* "ONENOTE"
+* "OUTLOOK"
+* "POWERPOINT"
+* "WORD"
+
+The following enumratons could also be used to check the value being retured: 
+
+```js
+	switch (Office.context.host) {
+                case Office.HostTypes.EXCEL:
+                   // do something
+                case Office.HostTypes.ONENOTE:
+                   // do something
+	}
+```
+
+
 
 ## Office diagnostic information 
 Provides diagnostic information about Office add-in, which could be used to collect diagnostic information about the Office tuntime environment. This could be accessed using: 
