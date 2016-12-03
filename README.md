@@ -9,7 +9,8 @@ _**Note**: below listed features are still under design and review phase and hen
 `Office.context` object represents the runtime environment of the add-in. Among other things it contains Office theme, touch enabled flag, display language, etc. We are making two additions to this object by introducing `host` and `platform` information.
 
 ### Host 
-This could be accessed using: 
+This could be accessed using:  
+
 `var host = Office.context.host;`
 
 It returns a string whose possible values could be one of the following: 
@@ -22,7 +23,8 @@ It returns a string whose possible values could be one of the following:
 
 ### Platform
 
-This could be accessed using: 
+This could be accessed using:  
+
 `var platform = Office.context.platform;`
 
 It returns a string whose possible values could be one of the following: 
@@ -38,13 +40,16 @@ Provides diagnostic information about Office add-in, which could be used to coll
 `var diagnostics = Office.context.diagnostics;`
 
 It returns an JSON object whose structure is as follows: 
-{
-	"host": "",
-	"platform": "",
-	"version": ""
-}
 
-Please refer above for host and platform values. For version, we'll make the best effort to return the version number of the Office specific to the platform under which Office is running. 
+```json
+{
+	"host": "..",
+	"platform": "..",
+	"version": ".."
+}
+```
+
+Please refer above for host and platform values. For version, we'll make the best effort to return the version number of the Office specific to the platform under which host is running. 
 
 ## Give feedback
 
