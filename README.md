@@ -18,7 +18,6 @@ It returns a string whose possible values could be one of the following:
 * "OFFICE_ONLINE" (Office online environment) 
 * "MAC" (Office on Mac)
 * "IOS" (Office on iPad)
-* `null`: If the site is not running within a Office host (such as Excel or Word), then `null` value is returned. 
 
 The following enumratons could also be used to check the value being retured: 
 
@@ -47,6 +46,7 @@ It returns a string whose possible values could be one of the following:
 * "PROJECT"
 * "ACCESS"
 * "HOST"
+* `null`: If the site is not running within a Office host (such as Excel or Word), then `null` value is returned. 
 
 The following enumratons could also be used to check the value being retured: 
 
