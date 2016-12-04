@@ -62,7 +62,7 @@ The following enumratons could also be used to check the value being retured:
 
 
 ## Office diagnostic information 
-Provides diagnostic information about Office add-in, which could be used to collect diagnostic information about the Office tuntime environment. This could be accessed using: 
+Provides diagnostic information about Office add-in, which could be used to collect environment related information about the Office add-in. Diagnostic information could be accessed using: 
 
 `var diagnostics = Office.context.diagnostics;`
 
