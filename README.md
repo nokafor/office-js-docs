@@ -46,7 +46,7 @@ It returns a string whose possible values could be one of the following:
 * "PROJECT"
 * "ACCESS"
 * "HOST"
-* `null`: If the site is not running within a Office host (such as Excel or Word), then `null` value is returned. 
+* `null`: If the site is _not_ running inside an Office host (such as Excel or Word), then `null` value is returned. 
 
 The following enumratons could also be used to check the value being retured: 
 
