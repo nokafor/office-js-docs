@@ -8,10 +8,10 @@ _**Note**: below listed features are still under design and review phase and hen
 
 `Office.context` object represents the runtime environment of the add-in. Among other things it contains Office theme, touch enabled flag, display language, etc. We are making two additions to this object by introducing `host` and `platform` information.
 
-### Host 
+### Platform 
 This could be accessed using:  
 
-`var host = Office.context.host;`
+`var host = Office.context.platform;`
 
 It returns a string whose possible values could be one of the following: 
 * "PC" (Windows desktop environment) 
@@ -33,11 +33,11 @@ switch (Office.context.platform) {
 
 ```
 
-### Platform
+### Host
 
 This could be accessed using:  
 
-`var platform = Office.context.platform;`
+`var platform = Office.context.host;`
 
 It returns a string whose possible values could be one of the following: 
 * "EXCEL" 
