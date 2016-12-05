@@ -8,34 +8,10 @@ _**Note**: below listed features are still under design and review phase and hen
 
 `Office.context` object represents the runtime environment of the add-in. Among other things it contains Office theme, touch enabled flag, display language, etc. We are making two additions to this object by introducing `host` and `platform` information.
 
-### Platform 
-This could be accessed using:  
-
-`var host = Office.context.platform;`
-
-It returns a string whose possible values could be one of the following: 
-* "PC" (Windows desktop environment) 
-* "OFFICE_ONLINE" (Office online environment) 
-* "MAC" (Office on Mac)
-* "IOS" (Office on iPad)
-
-The following enumratons could also be used to check the value being retured: 
-
-```js
-switch (Office.context.platform) {
-                case Office.PlatformTypes.PC:
-                   // do something
-                case Office.PlatformTypes.OFFICE_ONLINE:
-                   // do something
-}
-
-```
-
 ### Host
+Host returns the specific Office application inside which the add-in is running. This could be accessed using:  
 
-This could be accessed using:  
-
-`var platform = Office.context.host;`
+`var host = Office.context.host;`
 
 It returns a string whose possible values could be one of the following: 
 * "EXCEL" 
@@ -60,6 +36,28 @@ The following enumratons could also be used to check the value being retured:
 ```
 
 
+### Platform 
+Returns the platform in which the add-in is running. This could be accessed using:  
+
+`var platform = Office.context.platform;`
+
+It returns a string whose possible values could be one of the following: 
+* "PC" (Windows desktop environment) 
+* "OFFICE_ONLINE" (Office online environment) 
+* "MAC" (Office on Mac)
+* "IOS" (Office on iPad)
+
+The following enumratons could also be used to check the value being retured: 
+
+```js
+switch (Office.context.platform) {
+                case Office.PlatformTypes.PC:
+                   // do something
+                case Office.PlatformTypes.OFFICE_ONLINE:
+                   // do something
+}
+
+```
 
 ## Office diagnostic information 
 Provides diagnostic information about Office add-in, which could be used to collect environment related information about the Office add-in. Diagnostic information could be accessed using: 
