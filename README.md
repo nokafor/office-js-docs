@@ -16,7 +16,6 @@ Host returns the specific Office application inside which the add-in is running.
 It returns a string whose possible values could be one of the following: 
 * "EXCEL" 
 * "ONENOTE"
-* "OUTLOOK"
 * "POWERPOINT"
 * "WORD"
 * "PROJECT"
@@ -74,6 +73,10 @@ It returns an JSON object whose structure is as follows:
 ```
 
 Please refer above for host and platform values. For version, we'll make the best effort to return the version number of the Office specific to the platform under which host is running. 
+
+### Outlook 
+For Outlook, please consider using Office.context.mailbox.diagnostics object to get related information. 
+
 
 ## Give feedback
 
