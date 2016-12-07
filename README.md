@@ -32,8 +32,6 @@ The following enumratons could also be used to check the value being retured:
                    // do something
 	}
 ```
-### Outlook 
-For Outlook, please consider using `Office.context.mailbox.diagnostics` object to get related information. 
 
 ### Platform 
 Returns the platform in which the add-in is running. This could be accessed using:  
@@ -57,6 +55,8 @@ switch (Office.context.platform) {
 }
 
 ```
+### Outlook 
+For Outlook, please consider using `Office.context.mailbox.diagnostics` object to get related information. 
 
 ## Office diagnostic information 
 Provides diagnostic information about Office add-in, which could be used to collect environment related information about the Office add-in. Diagnostic information could be accessed using: 
