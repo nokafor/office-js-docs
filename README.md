@@ -32,7 +32,8 @@ The following enumratons could also be used to check the value being retured:
                    // do something
 	}
 ```
-
+### Outlook 
+For Outlook, please consider using `Office.context.mailbox.diagnostics` object to get related information. 
 
 ### Platform 
 Returns the platform in which the add-in is running. This could be accessed using:  
@@ -75,8 +76,7 @@ It returns an JSON object whose structure is as follows:
 Please refer above for host and platform values. For version, we'll make the best effort to return the version number of the Office specific to the platform under which host is running. 
 
 ### Outlook 
-For Outlook, please consider using Office.context.mailbox.diagnostics object to get related information. 
-
+For Outlook, please consider using `Office.context.mailbox.diagnostics` object to get related information. 
 
 ## Give feedback
 
