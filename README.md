@@ -14,21 +14,21 @@ Host returns the specific Office application inside which the add-in is running.
 `var host = Office.context.host;`
 
 It returns a string whose possible values could be one of the following: 
-* "EXCEL" 
-* "ONENOTE"
-* "POWERPOINT"
-* "WORD"
-* "PROJECT"
-* "ACCESS"
+* "Excel" 
+* "OneNote"
+* "PowerPoint"
+* "Word"
+* "Project"
+* "Acess"
 * `null`: If the site is _not_ running inside an Office host (such as Excel or Word), then `null` value is returned. 
 
 The following enumratons could also be used to check the value being retured: 
 
 ```js
 	switch (Office.context.host) {
-                case Office.HostTypes.EXCEL:
+                case Office.HostType.Excel:
                    // do something
-                case Office.HostTypes.ONENOTE:
+                case Office.HostType.OneNote:
                    // do something
 	}
 ```
@@ -41,9 +41,9 @@ Returns the platform in which the add-in is running. This could be accessed usin
 
 It returns a string whose possible values could be one of the following: 
 * "PC" (Windows desktop environment) 
-* "OFFICE_ONLINE" (Office online environment) 
-* "MAC" (Office on Mac)
-* "IOS" (Office on iPad)
+* "OfficeOnline" (Office online environment) 
+* "Mac" (Office on Mac)
+* "iOS" (Office on iPad)
 
 The following enumratons could also be used to check the value being retured: 
 
@@ -51,7 +51,7 @@ The following enumratons could also be used to check the value being retured:
 switch (Office.context.platform) {
                 case Office.PlatformTypes.PC:
                    // do something
-                case Office.PlatformTypes.OFFICE_ONLINE:
+                case Office.PlatformTypes.iOS:
                    // do something
 }
 
