@@ -22,6 +22,8 @@ The root element that contains information for the add-in commands implemented b
 |  [Resources](./resources.md)    |  Yes  | Defines a collection of resources (strings, URLs, and images) that other manifest elements reference.|
 |  **VersionOverrides**    |  No  | Defines add-in commands under a newer schema version. See [Implementing multiple versions](#implementing_multiple_versions) for details. |
 
+## Parent element
+_[OfficeApp](()_
 
 ## Additional Information
 
