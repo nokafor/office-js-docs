@@ -1,6 +1,7 @@
 # VersionOverrides element
 
-The root element that contains information for the add-in commands implemented by the add-in. **VersionOverrides** is a child element of the [OfficeApp](./officeapp.md) element in the manifest. This element is supported in manifest schema v1.1 and later but is defined in the VersionOverrides v1.0 or v1.1 schema. 
+## Description
+The root element that contains information for the add-in commands implemented by the add-in. Allows developers to add more functionality to their add-in, as well as extend more surfaces in Office. 
 
 ## Attributes
 
@@ -22,8 +23,11 @@ The root element that contains information for the add-in commands implemented b
 |  **VersionOverrides**    |  No  | Defines add-in commands under a newer schema version. See [Implementing multiple versions](#implementing_multiple_versions) for details. |
 
 
+## Additional Information
 
 ### VersionOverrides example
+_Link out to a full example / snippet instead?_
+
 ```xml
 <OfficeApp>
 ...
@@ -45,13 +49,14 @@ The root element that contains information for the add-in commands implemented b
 </OfficeApp>
 ```
 
-## Implementing multiple versions
+### Implementing multiple versions
 
 A manifest can implement multiple versions of the `VersionOverrides` element which support different versions of the VersionOverrides schema. This can be done to optionally support new features in a newer schema while still supporting older clients that do not support the new features.
 
 In order to implement multiple versions, the `VersionOverrides` element for the newer version must be a child of the `VersionOverrides` element for the older version. The child `VersionOverrides` element does not inherit any values from the parent.
 
 For example, in order to implement both the VersionOverrides v1.0 and v1.1 schema, the manifest would look similar to the following example.
+_Link out to full example / snippet instead?_
 
 ```xml
 <OfficeApp>
