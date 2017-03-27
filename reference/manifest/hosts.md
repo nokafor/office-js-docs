@@ -8,14 +8,10 @@ _none_
 
 ## Child elements
 
-### Required
+|  Element |  Required  |  Description  |
+|:-----|:-----|:-----|
+|  [Host](./host.md)    |  Yes   |  Describes a host and its settings. |
 
-|  Element |  Description  |
-|:-----|:-----|
-|  [Host](./host.md)    | Describes a host and its settings. |
-
-### Optional
-_none_
 
 ## Parent element
 _[OfficeApp]()_ 
