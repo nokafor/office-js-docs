@@ -17,10 +17,14 @@ Specifies the URL of the image that is used to represent your Office Add-in in t
 |:-----|:-----|:-----|
 |  [Override](../../reference/manifest/override.md)   | No | Specifies the setting for additional locale urls |
 
+## Parent element
+[OfficeApp]()
 
 ## Additional Information
 
 ### Example
+_update xml to have iconurl in larger context of manifest / parent node_
+
 ```XML
 <IconUrl DefaultValue="string " />
 ```
