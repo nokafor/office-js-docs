@@ -1,12 +1,18 @@
 
 # OfficeApp element
-The root element in the manifest of an Office Add-in.
 
- **Add-in type:** Content, Task pane, Mail
+## Description
+The root element in the manifest of an Office Add-in. Lets Office know what type of Add-in is being loaded and what schema to which it corresponds.
 
+## Attributes
 
-## Syntax:
+| | |
+|:-----|:-----|
+|xmlns|Defines the Office Add-in manifest namespace and schema version. This attribute should always be set to `"http://schemas.microsoft.com/office/appforoffice/1.1"`|
+|xmlns:xsi|Defines the XMLSchema instance. This attribute should always be set to  `"http://www.w3.org/2001/XMLSchema-instance"`|
+|xsi:type|Defines the kind of Office Add-in. This attribute should be set to one of:  `"ContentApp"`,  `"MailApp"`, or  `"TaskPaneApp"`|
 
+### Example
 
 ```XML
 <OfficeApp 
@@ -18,14 +24,9 @@ The root element in the manifest of an Office Add-in.
 ```
 
 
-## Contained in:
+## Child Elements
 
- _none_
-
-
-## Must contain:
-
-
+### Required
 
 |**Element**|**Content**|**Mail**|**TaskPane**|
 |:-----|:-----|:-----|:-----|
@@ -40,9 +41,7 @@ The root element in the manifest of an Office Add-in.
 |[Permissions](../../reference/manifest/permissions.md)|x||x|
 |[Rule](../../reference/manifest/rule.md)||x||
 
-## Can contain:
-
-
+### Optional
 
 |**Element**|**Content**|**Mail**|**TaskPane**|
 |:-----|:-----|:-----|:-----|
@@ -59,11 +58,16 @@ The root element in the manifest of an Office Add-in.
 |[Dictionary](../../reference/manifest/dictionary.md)|||x|
 |[VersionOverrides](../../reference/manifest/versionoverrides.md)|X|X|X|
 
-## Attributes
+## Parent Element
+
+ _none_
+
+## Aditional Information
+
+_This is where we can insert links to full example manifests for all three types_
 
 
-|||
-|:-----|:-----|
-|xmlns|Defines the Office Add-in manifest namespace and schema version. This attribute should always be set to  `"http://schemas.microsoft.com/office/appforoffice/1.1"`|
-|xmlns:xsi|Defines the XMLSchema instance. This attribute should always be set to  `"http://www.w3.org/2001/XMLSchema-instance"`|
-|xsi:type|Defines the kind of Office Add-in. This attribute should be set to one of:  `"ContentApp"`,  `"MailApp"`, or  `"TaskPaneApp"`|
+
+
+
+
