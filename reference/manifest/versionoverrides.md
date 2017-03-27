@@ -23,7 +23,7 @@ The root element that contains information for the add-in commands implemented b
 |  **VersionOverrides**    |  No  | Defines add-in commands under a newer schema version. See [Implementing multiple versions](#implementing_multiple_versions) for details. |
 
 ## Parent element
-_[OfficeApp](()_
+_[OfficeApp]()_
 
 ## Additional Information
 
