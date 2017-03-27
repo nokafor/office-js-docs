@@ -13,14 +13,9 @@ Specifies the URL of the image that is used to represent your Office Add-in in t
 
 ## Child elements
 
-### Required
-_none_
-
-### Optional
-
-|  Element | Description  |
-|:-----|:-----|
-|  [Override](../../reference/manifest/override.md)   | Specifies the setting for additional locale urls |
+|  Element | Required | Description  |
+|:-----|:-----|:-----|
+|  [Override](../../reference/manifest/override.md)   | No | Specifies the setting for additional locale urls |
 
 
 ## Additional Information
