@@ -14,7 +14,7 @@ _none_
 
 
 ## Parent element
-_[OfficeApp]()_ 
+[OfficeApp]() 
 
 > Can also be included in the [VersionOverrides](./versionoverrides.md) node, which will override the **Hosts** element in the parent portion of the manifest. 
 
