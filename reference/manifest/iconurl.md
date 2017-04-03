@@ -1,7 +1,7 @@
 # IconUrl element
 
 ## Description
-Specifies the URL of the image that is used to represent your Office Add-in in the _insertion(Office?)_ UX and Office Store.
+Specifies the URL of the image that is used to represent your Office Add-in in the insertion UX _(do devs know what this is?)_ and Office Store.
 
  **Add-in type:** Content, Task pane, Mail
 
