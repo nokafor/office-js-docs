@@ -9,7 +9,7 @@ Specifies the URL of the image that is used to represent your Office Add-in in t
 
 |**Attribute**|**Type**|**Required**|**Description**|
 |:-----|:-----|:-----|:-----|
-|DefaultValue|string|required|Specifies the default value for this setting, expressed for the locale specified in the [DefaultLocale](../../reference/manifest/defaultlocale.md) element.|
+|DefaultValue|string _<-- should we specify that this string should be a URL?_ |required|Specifies the default value for this setting, expressed for the locale specified in the [DefaultLocale](../../reference/manifest/defaultlocale.md) element. _Should we include that it should be https?_|
 
 ## Child elements
 
@@ -26,7 +26,7 @@ Specifies the URL of the image that is used to represent your Office Add-in in t
 _update xml to have iconurl in larger context of manifest / parent node_
 
 ```XML
-<IconUrl DefaultValue="string " />
+<IconUrl DefaultValue="https://localhost:3000/assets/icon-32.png" />
 ```
 
 _show image of where this shows up in office ux / store_
