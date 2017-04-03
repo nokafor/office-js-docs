@@ -1,8 +1,19 @@
 
 # SourceLocation element
+
+## Description
+
 Specifies the source file location(s) for your Office Add-in as a URL between 1 and 2018 characters long. The source location must be an HTTPS address, not a file path.
 
  **Add-in type:** Content, Task pane, Mail
+
+## Attributes
+
+
+
+|**Attribute**|**Type**|**Required**|**Description**|
+|:-----|:-----|:-----|:-----|
+|DefaultValue|URL|required|Specifies the default value for this setting for the locale specified in the [DefaultLocale](../../reference/manifest/defaultlocale.md) element.|
 
 
 ## Syntax:
@@ -25,10 +36,4 @@ Specifies the source file location(s) for your Office Add-in as a URL between 1 
 [Override](../../reference/manifest/override.md)
 
 
-## Attributes
 
-
-
-|**Attribute**|**Type**|**Required**|**Description**|
-|:-----|:-----|:-----|:-----|
-|DefaultValue|URL|required|Specifies the default value for this setting for the locale specified in the [DefaultLocale](../../reference/manifest/defaultlocale.md) element.|
