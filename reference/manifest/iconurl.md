@@ -1,15 +1,13 @@
 # IconUrl element
 
 ## Description
-Specifies the URL of the image that is used to represent your Office Add-in in the insertion UX _(do devs know what this is?)_ and Office Store.
-
- **Add-in type:** Content, Task pane, Mail
+Specifies the URL of the image that is used to represent your Office Add-in on the Office Ribbon and Office Store. The IconUrl must be an HTTPS address.
 
 ## Attributes
 
 |**Attribute**|**Type**|**Required**|**Description**|
 |:-----|:-----|:-----|:-----|
-|DefaultValue|string _<-- should we specify that this string should be a URL?_ |required|Specifies the default value for this setting, expressed for the locale specified in the [DefaultLocale](../../reference/manifest/defaultlocale.md) element. _Should we include that it should be https?_|
+|DefaultValue| URL |Yes|Specifies the default value for this setting, expressed for the locale specified in the [DefaultLocale](../../reference/manifest/defaultlocale.md) element. |
 
 ## Child elements
 
@@ -29,7 +27,7 @@ _update xml to have iconurl in larger context of manifest / parent node_
 <IconUrl DefaultValue="https://localhost:3000/assets/icon-32.png" />
 ```
 
-_show image of where this shows up in office ux / store_
+_Should we use a contoso url?_
 
 ### Additional Remarks
 For a mail add-in, the icon is displayed in the  **File** > **Manage add-ins** UI (Outlook) or **Settings** > **Manage add-ins** UI (Outlook Web App). For a content or task pane add-in, the icon is displayed in the **Insert** > **Add-ins** UI. For all add-in types, the icon is also used on the Office Store site, if you publish your add-in to the Office Store.
