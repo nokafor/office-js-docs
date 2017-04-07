@@ -58,13 +58,13 @@
 |:-----|:-----|:-----|
 |  **xsi:type**  |  Yes  | The type of extension point being defined.|
 
-### Extension points for Word, Excel, PowerPoint, and OneNote add-in commands
+### Extension point options for Word, Excel, PowerPoint, and OneNote add-in commands
 |Extension point type | Description|
 |-|-|
 |PrimaryCommandSurface | Puts buttons on the ribbon in Office.|
 |ContextMenu| Puts command on the shortcut menu that appears when you right-click in the Office UI.|
 
-### Extension points for Outlook add-in commands
+### Extension point options for Outlook add-in commands
 
 |Extension point type | Description|
 |-|-|
@@ -77,6 +77,9 @@
 ## Child elements
 
 The ExtensionPoint element must have at least one of the following child elements.
+> Note: OfficeMenu is not a child element for Outlook extension points
+
+_Does OfficeMenu only work for Word or Excel?_
  
 |**Element**|**Description**|
 |:-----|:-----|
@@ -85,9 +88,6 @@ The ExtensionPoint element must have at least one of the following child element
 |[OfficeMenu]()|Adds the command(s) to a default context menu. The  **id** attribute must be set to: <br/> - **ContextMenuText** for Excel or Word to display the item on the context menu when text is selected and then the user right-clicks on the selected text. <br/> - **ContextMenuCell** for Excel to display the  item on the context menu when the user right-clicks on a cell on the spreadsheet.|
 
 
-> Note: OfficeMenu is not a child element for Outlook extension points
-
-_Does OfficeMenu only work for Word or Excel?_
 
 
 ## Parent Element
