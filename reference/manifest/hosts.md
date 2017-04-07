@@ -4,7 +4,7 @@
 Specifies the Office client application where the Office Add-in will activate. Contains a collection of **Host** elements and their settings. 
 
 ## Attributes
-_none_
+None
 
 ## Child elements
 
