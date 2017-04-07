@@ -5,35 +5,41 @@
 
 Specifies the source file location(s) for your Office Add-in as a URL between 1 and 2018 characters long. The source location must be an HTTPS address, not a file path.
 
- **Add-in type:** Content, Task pane, Mail
+### Example
+
+```XML
+
+<OfficeApp>
+...
+  <DefaultSettings>
+    <SourceLocation DefaultValue="https://localhost:3000 " />
+  </DefaultSettings>
+...
+</OfficeApp>
+
+```
+_Should we use a contoso url? Also does the manifest need more surrounding context?_
 
 ## Attributes
 
-
-
 |**Attribute**|**Type**|**Required**|**Description**|
 |:-----|:-----|:-----|:-----|
-|DefaultValue|URL|required|Specifies the default value for this setting for the locale specified in the [DefaultLocale](../../reference/manifest/defaultlocale.md) element.|
+|DefaultValue|URL|Yes|Specifies the default value for this setting for the locale specified in the [DefaultLocale](../../reference/manifest/defaultlocale.md) element.|
 
 
-## Syntax:
+## Child Elements
 
 
-```XML
-<SourceLocation DefaultValue="string " />
-```
+|  Element | Required | Description  |
+|:-----|:-----|:-----|
+|  [Override](../../reference/manifest/override.md)   | No | Specifies the setting for additional locale urls |
 
-
-## Contained in:
+## Parent element
 
 [DefaultSettings](../../reference/manifest/defaultsettings.md) (Content and task pane add-ins)
-
 [FormSettings](../../reference/manifest/formsettings.md) (Mail add-ins)
 
-
-## Can contain:
-
-[Override](../../reference/manifest/override.md)
-
+## Additional Information
+None
 
 
