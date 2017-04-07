@@ -3,6 +3,30 @@
 ## Description
 The root element that contains information for the add-in commands implemented by the add-in. Allows developers to add more functionality to their add-in, as well as extend more surfaces in Office. 
 
+### Example
+
+```xml
+<OfficeApp>
+...
+  <VersionOverrides xmlns="http://schemas.microsoft.com/office/mailappversionoverrides" xsi:type="VersionOverridesV1_0">
+    <Description resid="residDescription" />
+    <Requirements>
+      <!-- add information on requirements -->
+    </Requirements>
+    <Hosts>
+      <Host xsi:type="MailHost">
+        <!-- add information on form factors -->
+      </Host>
+    </Hosts>
+    <Resources> 
+      <!-- add information on resources -->
+    </Resources>
+  </VersionOverrides>
+...
+</OfficeApp>
+```
+_Should we link out to a full example / snippet instead?_
+
 ## Attributes
 
 |  Attribute  |  Required  |  Description  |
@@ -27,31 +51,9 @@ The root element that contains information for the add-in commands implemented b
 
 ## Additional Information
 
-### VersionOverrides example
-_Link out to a full example / snippet instead?_
-
-```xml
-<OfficeApp>
-...
-  <VersionOverrides xmlns="http://schemas.microsoft.com/office/mailappversionoverrides" xsi:type="VersionOverridesV1_0">
-    <Description resid="residDescription" />
-    <Requirements>
-      <!-- add information on requirements -->
-    </Requirements>
-    <Hosts>
-      <Host xsi:type="MailHost">
-        <!-- add information on form factors -->
-      </Host>
-    </Hosts>
-    <Resources> 
-      <!-- add information on resources -->
-    </Resources>
-  </VersionOverrides>
-...
-</OfficeApp>
-```
-
 ### Implementing multiple versions
+
+_Why would a developer want to implement multiple versions?_
 
 A manifest can implement multiple versions of the `VersionOverrides` element which support different versions of the VersionOverrides schema. This can be done to optionally support new features in a newer schema while still supporting older clients that do not support the new features.
 
