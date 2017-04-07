@@ -37,6 +37,7 @@ _Should we use a contoso url? Also does the manifest need more surrounding conte
 ## Parent element
 
 [DefaultSettings](../../reference/manifest/defaultsettings.md) (Content and task pane add-ins)
+
 [FormSettings](../../reference/manifest/formsettings.md) (Mail add-ins)
 
 ## Additional Information
