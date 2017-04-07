@@ -26,6 +26,8 @@ The root element in the manifest of an Office Add-in. Lets Office know what type
 
 ## Child Elements
 
+_Are these requirements up to date?_
+
 ### Required
 
 |**Element**|**Content**|**Mail**|**TaskPane**|
@@ -59,8 +61,7 @@ The root element in the manifest of an Office Add-in. Lets Office know what type
 |[VersionOverrides](../../reference/manifest/versionoverrides.md)|X|X|X|
 
 ## Parent Element
-
- _none_
+None
 
 ## Aditional Information
 
