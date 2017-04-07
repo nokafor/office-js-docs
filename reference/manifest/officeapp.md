@@ -26,7 +26,7 @@ The root element in the manifest of an Office Add-in. Lets Office know what type
 
 ## Child Elements
 
-_Are these requirements up to date?_
+_Are these requirements up to date and in the right order?_
 
 ### Required
 
