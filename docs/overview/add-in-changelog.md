@@ -5,7 +5,8 @@ This changelog covers what's changed on the Office Add-in Platform, including up
 ## April 2017
 |**Category**|**Description**|**Link**|
 |-|-|-|
-|Excel APIs|ExcelApi 1.4 is now available for Office Online! For more details, see our API reference|[Excel JavaScript API requirement sets](https://dev.office.com/reference/add-ins/requirement-sets/excel-api-requirement-sets)|
+|Excel APIs|ExcelApi 1.4 is now available for Windows and Office Online! For more details, see our API reference|[Excel JavaScript API requirement sets](https://dev.office.com/reference/add-ins/requirement-sets/excel-api-requirement-sets)|
+|Excel APIs|ExcelApi 1.5 BETA, 1.6 BETA are now available for Windows and Office Online! For more details, see our API reference|[Excel JavaScript API requirement sets](https://dev.office.com/reference/add-ins/requirement-sets/excel-api-requirement-sets)|
 |Office Add-in Tooling| Released the [Office Add-in Validator](https://github.com/OfficeDev/office-addin-validator) to help developers validate the add-in manifests. | [Validating your Office Add-in manifest just got easier - Introducing the Office Add-in Validator](https://dev.office.com/blogs/creating-add-ins-gets-easier-announcing-updates-to-yo-officehttps://dev.office.com/blogs/introducing-the-office-add-in-validator)|
 
 ## February 2017
@@ -16,7 +17,7 @@ This changelog covers what's changed on the Office Add-in Platform, including up
 ## September 2016
 |**Category**|**Description**|**Link**|
 |-|-|-|
-|Excel APIs|ExcelApi 1.3 is now available for Office Online! For more details, see our API reference|[Excel JavaScript API requirement sets](https://dev.office.com/reference/add-ins/requirement-sets/excel-api-requirement-sets)|
+|Excel APIs|ExcelApi 1.3 is now available for Windows and Office Online! For more details, see our API reference|[Excel JavaScript API requirement sets](https://dev.office.com/reference/add-ins/requirement-sets/excel-api-requirement-sets)|
 |Word APIs|Released WordApi 1.1, 1.2 for Office Online|[Word JavaScript API requirement sets](https://dev.office.com/reference/add-ins/requirement-sets/word-api-requirement-sets) |
 |OneNote APIs | Introduced OneNoteApi 1.1 for OneNote Online |[OneNote JavaScript API requirement sets](https://dev.office.com/reference/add-ins/requirement-sets/onenote-api-requirement-sets) |
 
