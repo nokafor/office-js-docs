@@ -5,6 +5,7 @@ This changelog covers what's changed on the Office Add-in Platform, including up
 ## April 2017
 |**Category**|**Description**|**Link**|
 |-|-|-|
+|Excel APIs|ExcelApi 1.4 is now available for Office Online! For more details, see our API reference|[Excel JavaScript API requirement sets](https://dev.office.com/reference/add-ins/requirement-sets/excel-api-requirement-sets)|
 |Office Add-in Tooling| Released the [Office Add-in Validator](https://github.com/OfficeDev/office-addin-validator) to help developers validate the add-in manifests. | [Validating your Office Add-in manifest just got easier - Introducing the Office Add-in Validator](https://dev.office.com/blogs/creating-add-ins-gets-easier-announcing-updates-to-yo-officehttps://dev.office.com/blogs/introducing-the-office-add-in-validator)|
 
 ## February 2017
