@@ -12,13 +12,12 @@ Specifies the source file location(s) for your Office Add-in as a URL between 1 
 <OfficeApp>
 ...
   <DefaultSettings>
-    <SourceLocation DefaultValue="https://localhost:3000 " />
+    <SourceLocation DefaultValue="https://contoso.com/" />
   </DefaultSettings>
 ...
 </OfficeApp>
 
 ```
-_Should we use a contoso url? Also does the manifest need more surrounding context?_
 
 ## Attributes
 
