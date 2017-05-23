@@ -1,16 +1,23 @@
 # IconUrl element
 
-## Description
 Specifies the URL of the image that is used to represent your Office Add-in on the Office Ribbon and Office Store. The IconUrl must be an HTTPS address.
 
-### Example
-_update xml to have iconurl in larger context of manifest / parent node_
+## Example
 
 ```XML
-<IconUrl DefaultValue="https://localhost:3000/assets/icon-32.png" />
+<OfficeApp>
+...
+  <Description DefaultValue="Description of your Office Add-in." />
+  
+  
+  <IconUrl DefaultValue="https://contoso.com/assets/icon-32.png" />
+  
+  
+  <HighResolutionIconUrl DefaultValue="https://contoso.com/assets/hi-res-icon.png"/>
+...
+</OfficeApp>
 ```
 
-_Should we use a contoso url?_
 
 ## Attributes
 
