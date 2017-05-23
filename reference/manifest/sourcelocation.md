@@ -1,11 +1,9 @@
 
 # SourceLocation element
 
-## Description
-
 Specifies the source file location(s) for your Office Add-in as a URL between 1 and 2018 characters long. The source location must be an HTTPS address, not a file path.
 
-### Example
+## Example
 
 ```XML
 
@@ -38,8 +36,5 @@ Specifies the source file location(s) for your Office Add-in as a URL between 1 
 [DefaultSettings](../../reference/manifest/defaultsettings.md) (Content and task pane add-ins)
 
 [FormSettings](../../reference/manifest/formsettings.md) (Mail add-ins)
-
-## Additional Information
-None
 
 
