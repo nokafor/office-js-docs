@@ -24,7 +24,7 @@ Specifies the source file location(s) for your Office Add-in as a URL between 1 
 |DefaultValue|URL|Yes|Specifies the default value for this setting for the locale specified in the [DefaultLocale](../../reference/manifest/defaultlocale.md) element.|
 
 
-## Child Elements
+## Child elements
 
 
 |  Element | Required | Description  |
